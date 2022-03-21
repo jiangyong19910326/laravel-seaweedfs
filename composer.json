@@ -1,0 +1,25 @@
+{
+    "name": "arnold/laravel-seaweedfs",
+    "description": "A SeaweedFS implementation for Laravel (supporting Filesystems)",
+    "license": "ISC",
+    "autoload": {
+        "psr-4": {
+            "SeaweedFS\\Laravel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jiangyong",
+            "email": "jiangyong19910326@163.com"
+        }
+    ],
+    "require": {
+        "illuminate/filesystem": "~5.0|~6.0|~7.0|~8.0",
+        "illuminate/database": "~5.0|~6.0|~7.0|~8.0",
+        "illuminate/support": "~5.0|~6.0|~7.0|~8.0",
+        "illuminate/cache": "~5.0|~6.0|~7.0|~8.0",
+        "graham-campbell/manager": "^4.0",
+        "arnold/seaweedfs-client": "^1.0",
+        "arnold/flysystem-seaweedfs": "^1.0"
+    }
+}
