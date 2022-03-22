@@ -20,6 +20,16 @@
         "illuminate/cache": "~5.0|~6.0|~7.0|~8.0",
         "graham-campbell/manager": "^4.0",
         "arnold/seaweedfs-client": "^1.0",
-        "arnold/flysystem-seaweedfs": "^1.0"
+        "arnold/flysystem-seaweedfs": "^1.0.1"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+              "SeaweedFS\\Laravel\\SeaweedFSProvider"
+            ],
+            "aliases": {
+                "SeaweedFS": "SeaweedFS\\Laravel\\Facades\\SeaweedFS"
+            }
+        }
     }
 }
