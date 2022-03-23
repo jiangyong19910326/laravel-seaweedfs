@@ -19,8 +19,8 @@
         "illuminate/support": "~5.0|~6.0|~7.0|~8.0",
         "illuminate/cache": "~5.0|~6.0|~7.0|~8.0",
         "graham-campbell/manager": "^4.0",
-        "arnold/seaweedfs-client": "^1.0.2",
-        "arnold/flysystem-seaweedfs": "^1.0.1"
+        "arnold/seaweedfs-client": "dev-main",
+        "arnold/flysystem-seaweedfs": "dev-main"
     },
     "extra": {
         "laravel": {
